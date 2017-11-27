@@ -1,0 +1,14 @@
+{
+    "name": "hello-world-rest/api",
+    "description": "simple REST sample",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+    	 "bramus/router": "dev-master"
+    }
+}
